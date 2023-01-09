@@ -6,9 +6,9 @@ Training indomitable beasts
 """)
 
 st.write("""
-## DAY MEDIUM		
+### DAY MEDIUM		
 
-### WARM UP									
+#### WARM UP									
 ROW: 3' TOTALI: 30'' SPRINT - 30'' EASY					
 					
 ### STRENGHT 
