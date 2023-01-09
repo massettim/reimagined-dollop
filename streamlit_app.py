@@ -23,7 +23,8 @@ REST 1'30" BETWEEN SET
 					
 ------          
          
-PUSH PRESS 
+PUSH PRESS
+
 5 @ 70% 
 3 @ 75%
 1 @ 80% 
@@ -31,12 +32,12 @@ X 2 WAVE
 REST. 2' BETWEEN WAVE
 """)
 st.write("""
-### Calculate:
+#### Calculate:
 """)
 
 weight = st.text_input('KG', placeholder="100")
 percentage = st.text_input('%', placeholder="50")
-
+st.text(weight * percentage/100)
 
 st.write("""
 #### GYM					
