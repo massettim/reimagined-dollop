@@ -72,4 +72,11 @@ RUN 400 M PACE 25 SEC 100M
 MEDIA PACE SCALATO 30-35 SEC
 WOMAN 35-40 SEC 100
 """)
-					
+			
+st.write("""
+## Once Done...
+""")		
+if st.button('Push Here!'):
+	st.balloons()
+	st.success("Fucking Amazing!", icon="🦍")
+
