@@ -5,13 +5,11 @@ st.write("""
 Training indomitable beasts
 """)
 
-st.write("""
-### DAY MEDIUM		
-
-#### WARM UP
+st.write("""	
+## WARM UP
 ROW: 3' TOTALI: 30'' SPRINT - 30'' EASY					
 					
-#### STRENGHT 
+### STRENGHT 
 
 8 SET
 
@@ -47,7 +45,7 @@ percentage = st.number_input('%', min_value=0.0, value=50.0)
 st.text(weight * percentage/100)
 
 st.write("""
-#### GYM					
+### GYM					
 6 ROUND FOR TIME					
 					
 8 STRICT HSPU (OR 40% MAX REP UB)
@@ -80,7 +78,7 @@ FOR TIME
 (25 SOLO DESTRA + 25 SOLO SINISTRA) 
 					
 
-#### AEROBIC CAPACITY	
+### AEROBIC CAPACITY	
 
 800M RUN PACE 25 SEC: 100M 
 
