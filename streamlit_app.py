@@ -35,8 +35,8 @@ st.write("""
 #### Calculate:
 """)
 
-weight = st.text_input('KG', placeholder="100")
-percentage = st.text_input('%', placeholder="50")
+weight = st.number_input('KG', min=0, value=100.0)
+percentage = st.number_input('%', min=0.0, value=50.0)
 st.text(weight * percentage/100)
 
 st.write("""
