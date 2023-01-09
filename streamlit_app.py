@@ -74,9 +74,9 @@ WOMAN 35-40 SEC 100
 """)
 			
 st.write("""
-## Once Done...
+## Finally...
 """)		
-if st.button('Push Here!'):
+if st.button('Push Here!',type="primary"):
 	st.balloons()
 	st.success("Fucking Amazing!", icon="🦍")
 
