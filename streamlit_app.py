@@ -29,8 +29,16 @@ PUSH PRESS
 1 @ 80% 
 X 2 WAVE
 REST. 2' BETWEEN WAVE
-					
-					
+""")
+st.write("""
+### Calculate:
+""")
+
+weight = st.text_input('KG', placeholder="100")
+percentage = st.text_input('%', placeholder="50")
+
+
+st.write("""
 #### GYM					
 6 ROUND FOR TIME					
 					
