@@ -56,8 +56,10 @@ st.write("""
 
 SKI 200M
 
-------          
-REST 3' THEN 
+------
+
+REST 3' THEN
+
 ------
 
 10 ROUND
@@ -67,7 +69,9 @@ REST 3' THEN
 5 RING M.U. 
 
 ------
+
 THEN
+
 ------
 
 FOR TIME
