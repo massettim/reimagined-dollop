@@ -68,7 +68,7 @@ REST 3' THEN
 
 ------
 
-THEN
+REST 3' THEN
 
 ------
 
